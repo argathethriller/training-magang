@@ -11,28 +11,45 @@ html {
   width: 95%;
   max-width: 960px;
   margin: 0 auto;
+
 }
 
 .panel {
-  background: #f7f7f7;
+  background: rgb(242,242,242);
+  width:100%;
+  max-height:1300px;
 }
 
 .panel__section {
   float: left;
+  margin-top:3%;
+  margin-bottom:2%;
 }
 
 .panel__section--left {
   width: 30%;
+  height: 50%;
 }
 
 .panel__section--right {
   width: 65%;
   margin-left: 5%;
+  height:80%;
 }
 
 .box {
   padding: 10px;
-  border: solid 1px #ccc;
+  border: solid 2px #ccc;
+}
+
+.box--primary {
+  background: rgb(210,210,210);
+  height:600px;
+}
+
+.box--secondary {
+  background: rgb(235,235,235);
+  height:300px;
 }
 
 .clearfix:after {
